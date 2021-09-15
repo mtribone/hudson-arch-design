@@ -1,0 +1,109 @@
+body {
+  color: #444;
+  font-family: 'Open Sans', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; }
+
+h1,
+.bronze-serif {
+  font-weight: lighter; }
+
+h1,
+.bronze-serif,
+.footer-logo,
+h2 a:link,
+h2 a:visited {
+  font-family: 'Playfair Display', TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+  color: #c1b080;
+}
+
+h2,
+.da-blue,
+h3 a:link,
+h3 a:visited { color: #005B99; }
+
+h3 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav a:link,
+nav a:visited,
+footer ul a {
+  color: #c1b080;
+  text-decoration: none; }
+
+nav a:hover,
+footer ul a:hover {
+  border-bottom: 1px solid #000000;
+  color: #000000;
+  text-decoration: none; }
+
+.logo {
+  text-align: center;
+}
+
+h1,
+.logo h1,
+.footer-logo {
+  text-transform: uppercase;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  letter-spacing: 0.8rem;
+  margin-top: 0rem;
+  margin-bottom: 0.25rem; }
+
+.sub-logo {
+  color: #000;
+  font-size: 1.45rem;
+  letter-spacing: 0.12rem;
+  margin-left: -0.6rem; }
+
+.cite {
+  font-style: italic;
+  padding: 0 1rem 0 0;
+  text-align: right; }
+
+p { line-height: 1.25rem; }
+
+.home-about ul {
+  color: dimgray;
+  line-height: 1.45;
+}
+
+.open-600 { font-weight: 600; }
+
+.bolder-text { font-weight: 900; }
+
+.text-75 {
+  font-family: 'Open Sans', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 75%;
+}
+
+.uppercase { text-transform: uppercase; }
+
+.content-column-2 h2, h3 { margin-bottom: 0; }
+
+.content-column-2 p { margin-top: 0; }
+
+.content-home-reviews { color: dimgray; }
+
+.footer-sub-logo { color: #000; }
+
+.footer-logo {
+  font-size: 1.75rem;
+  letter-spacing: 0.40rem;
+}
+
+.footer-sub-logo {
+  font-size: 0.90rem;
+  letter-spacing: 0.04rem;
+  margin-left: -0.35rem;
+  }
+
+.footer-wrapper-2 { font-size: 0.75rem; }
