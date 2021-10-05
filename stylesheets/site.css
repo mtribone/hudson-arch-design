@@ -301,7 +301,7 @@
     margin: 0 auto;
   }
 
-  /* Dropdown menu adapted from https://css-tricks.com/solved-with-css-dropdown-menus/ */ 
+  /* Navigation with Submenu */
 
   nav ul {
     display: -webkit-box;
@@ -315,32 +315,28 @@
 
   nav li { padding-right: 1rem; }
 
-  ul li ul {
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    display: none;
+  nav li:hover ul {
+    left: auto;
+    z-index: 1000;
   }
 
-ul li:hover > ul,
-ul li ul:hover {
-  display: block;
-  margin-right: -11rem;
-  opacity: 1;
-  padding-left: 0;
-  text-align: justify;
-  visibility: visible;
-}
+  .dropdown {
+    display: block;
+    position: absolute;
+    left: -9999px;
+    line-height: 1rem;
+    text-align: left;
+  }
 
-ul li ul li {
-  clear: both;
-  width: 100%;
-}
-
+  .dropdown li {
+    padding-top: 0.5rem;
+    margin-left: -0.4rem;
+  }
 
   .home-box { margin: 2rem auto; }
 
+  /* Gallery Slideshow */
+  
   .galleria {
     max-width: 700px;
     height: 500px;
