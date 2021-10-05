@@ -266,8 +266,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "footer-wrapper-3 footer-wrapper-3 footer-wrapper-3"
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     justify-items: center;
   }
 
@@ -336,7 +336,7 @@
   .home-box { margin: 2rem auto; }
 
   /* Gallery Slideshow */
-  
+
   .galleria {
     max-width: 700px;
     height: 500px;
