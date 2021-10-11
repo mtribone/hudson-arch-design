@@ -70,4 +70,94 @@
 .footer-wrapper-3 {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas: "footer-wrapper-3"; }
+  grid-template-areas: "footer-wrapper-3";
+}
+
+@media (min-width: 500px) {
+    .content-column-2 {
+    grid-template-columns: 6.5fr 5fr;
+    grid-template-areas: "content-column-2 content-column-2";
+  }
+
+  .content-column-about {
+    grid-template-columns: 4.5fr 5fr;
+    grid-template-areas: "content-about content-about";
+  }
+
+  .content-column-3 {
+    grid-template-columns: 2.25fr 7fr;
+    grid-template-areas: "content-3 content-3";
+  }
+
+  .content-column-reviews {
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas: "content-reviews content-reviews";
+  }
+
+  .content-home-reviews {
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-areas: "home-reviews home-reviews home-reviews";
+    margin: 3rem 0 0 0;
+    padding: 2rem;
+  }
+
+  .content-get-started {
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas: "get-started";
+    margin-bottom: 2.5rem;
+  }
+
+  .content-home-gallery {
+    grid-template-columns: 5fr 5fr;
+    grid-template-areas: "home-gallery home-gallery";
+    margin-bottom: 5rem;
+  }
+
+  .content-home-about {
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas: "home-about home-about";
+  }
+
+  .content-home-design {
+    grid-template-columns: 6fr 6fr 6fr 3fr;
+    grid-template-areas: "home-design home-design home-design .";
+    margin-bottom: 5rem;
+  }
+
+  .footer-wrapper-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "footer-wrapper-3 footer-wrapper-3 footer-wrapper-3";
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .content-home-gallery {
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-areas: "home-gallery home-gallery";
+  }
+}
+
+@media (min-width: 650px) {
+  .content-home-about {
+    grid-template-columns: 6fr 6fr 6fr 3fr;
+    grid-template-areas: "home-about home-about home-about home-about";
+  }
+}
+
+@media (min-width: 750px) {
+  .content-home-gallery {
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    grid-template-areas: "home-gallery"
+  }
+}
+
+@media (min-width: 890px) {
+  .content-home-gallery {
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    grid-template-areas: "home-gallery"
+  }
+}
