@@ -84,6 +84,8 @@
   top: 3rem;
 }
 
+.galleria-extra { top: 5rem; }
+
 @media (min-width: 500px) {
     .content-column-2 {
     grid-template-columns: 6.5fr 5fr;
