@@ -84,13 +84,9 @@
   top: 3rem;
 }
 
-.galleria-extra { top: 5rem; }
+.galleria-extra { top: 5.5rem; }
 
 @media (min-width: 500px) {
-    .content-column-2 {
-    grid-template-columns: 6.5fr 5fr;
-    grid-template-areas: "content-column-2 content-column-2";
-  }
 
   .content-column-about {
     grid-template-columns: 4.5fr 5fr;
@@ -171,6 +167,11 @@
 }
 
 @media (min-width: 750px) {
+  .content-column-2 {
+    grid-template-columns: 6.5fr 5fr;
+    grid-template-areas: "content-column-2 content-column-2";
+  }
+  
   .content-home-gallery {
     grid-template-columns: 5fr 5fr 5fr 5fr;
     grid-template-areas: "home-gallery"

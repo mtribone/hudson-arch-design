@@ -149,7 +149,7 @@
 
   .galleria {
     max-width: 700px;
-    height: 300px;
+    height: 400px;
   }
 
   .galleria-margin { margin-top: 5rem; }
@@ -273,6 +273,8 @@
   .sketched { padding-bottom: .75rem; }
 
   .call-to-action { width: 50%; }
+
+  .title-margin { padding-left:  .65rem; }
 }
 
 @media (min-width: 800px) {
