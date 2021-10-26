@@ -2,38 +2,8 @@
 
 @media (min-width: 300px) {
 
-  /* nav ul { text-align: center; } */
-  /* nav li { padding-bottom: .5rem; } */
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding: 0 1.5rem 0 0;
-  }
-
-  nav li { padding-right: 1rem; }
-
-  nav li:hover ul {
-    left: auto;
-    z-index: 1000;
-  }
-
-  .dropdown {
-    background-color: #fff;
-    display: block;
-    position: absolute;
-    left: -9999px;
-    line-height: 1rem;
-    text-align: left;
-  }
-
-  .dropdown li {
-    padding-top: 0.5rem;
-    /* margin-left: -0.4rem; */
-  }
+  nav ul { text-align: center; }
+  nav li { padding-bottom: .5rem; }
 
   .content-column-2 {
     grid-template-columns: 1fr;

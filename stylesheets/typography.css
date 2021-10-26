@@ -31,16 +31,27 @@ ul {
 }
 
 nav a:link,
-nav a:visited,
+nav a:visited {
+  color: #c1b080;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #000000;
+  color: #000000;
+  text-decoration: none;
+}
+
 footer ul a {
   color: #c1b080;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-nav a:hover,
 footer ul a:hover {
   border-bottom: 1px solid #000000;
   color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .logo {
   text-align: center;
@@ -107,3 +118,19 @@ p { line-height: 1.25rem; }
   }
 
 .footer-wrapper-2 { font-size: 0.75rem; }
+
+@media (min-width: 700px) {
+  nav a:link,
+  nav a:visited,
+  footer ul a {
+    color: #c1b080;
+    text-decoration: none;
+  }
+
+  nav a:hover,
+  footer ul a:hover {
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    text-decoration: none;
+  }
+}
