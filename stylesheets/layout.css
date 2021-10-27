@@ -144,11 +144,8 @@
 
   /* Total Hack for Mobile per Client Request saves moola */
   .project-title {
-    position: static;
-  }
-
-  .galleria {
-    position: static;
+    position: relative;
+    top: -28rem;
   }
 }
 
@@ -156,6 +153,14 @@
   .content-home-gallery {
     grid-template-columns: 5fr 5fr 5fr;
     grid-template-areas: "home-gallery home-gallery";
+  }
+}
+
+@media (min-width: 700px) {
+  /* Total Hack for Mobile per Client Request saves moola */
+  .project-title {
+    position: relative;
+    top: -34rem;
   }
 }
 
@@ -175,6 +180,15 @@
   .content-home-gallery {
     grid-template-columns: 5fr 5fr 5fr 5fr;
     grid-template-areas: "home-gallery"
+  }
+
+  /* Total Hack for Mobile per Client Request saves moola */
+  .project-title {
+    position: static;
+  }
+
+  .galleria {
+    position: static;
   }
 }
 
