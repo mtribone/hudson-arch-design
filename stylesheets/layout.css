@@ -40,7 +40,7 @@
 
 .content-home-reviews {
   display: grid;
-  grid-gap: 20px;
+  /* grid-gap: 20px; */
   grid-template-areas: "home-reviews";
 }
 
@@ -103,13 +103,6 @@
     grid-template-areas: "content-reviews content-reviews";
   }
 
-  .content-home-reviews {
-    grid-template-columns: 4fr 4fr 4fr;
-    grid-template-areas: "home-reviews home-reviews home-reviews";
-    margin: 3rem 0 0 0;
-    padding: 2rem;
-  }
-
   .content-get-started {
     grid-template-columns: 6fr 6fr;
     grid-template-areas: "get-started";
@@ -153,6 +146,14 @@
   .content-home-gallery {
     grid-template-columns: 5fr 5fr 5fr;
     grid-template-areas: "home-gallery home-gallery";
+  }
+
+    .content-home-reviews {
+    grid-gap: 50px;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-areas: "home-reviews home-reviews home-reviews";
+    margin: 3rem 0 0 0;
+    padding: 2rem;
   }
 }
 
