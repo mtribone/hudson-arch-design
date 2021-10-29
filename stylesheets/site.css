@@ -237,6 +237,11 @@
 
   .negative-margin-about { margin-left: -11rem; }
 
+  .galleria-theme-classic .galleria-thumbnails-container {
+    left: 10px; /* Sets the original Galleria CSS */
+    right: 10px;
+  }
+
   footer { padding-top: .5rem; }
 }
 
