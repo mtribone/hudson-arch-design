@@ -42,6 +42,11 @@
     border-top: 10px solid #FFF;
   }
 
+  .galleria-theme-classic .galleria-thumbnails-container {
+    left: 10%;
+    right: 10%;
+  }
+
   .call-to-action {
     border: 3px solid #c1b080;
     color: #005B99;
