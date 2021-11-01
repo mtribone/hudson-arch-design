@@ -3,6 +3,21 @@
 .padding-lr-2 { padding: 1rem; }
 
 @media (min-width: 300px) {
+
+  .dropdown {
+    background-color: #fff;
+    display: block;
+    margin-top: .8rem;
+    position: absolute;
+    left: -9999px;
+    line-height: 1rem;
+    text-align: center;
+  }
+
+  nav li:hover ul {
+    position: static;
+  }
+
   .content-column-2 {
     grid-template-columns: 1fr;
     padding-bottom: 2rem;
@@ -24,6 +39,8 @@
   .value-statement { font-size: 1.5rem; }
 
   .home-statement { line-height: 1.5rem; }
+
+  .home-reviews p { padding-bottom: 2rem; }
 
   article { padding: 0 1rem; }
 
@@ -183,12 +200,14 @@
 
   nav li:hover ul {
     left: auto;
+    position: absolute;
     z-index: 1000;
   }
 
   .dropdown {
     background-color: #fff;
     display: block;
+    margin-top: 0;
     position: absolute;
     left: -9999px;
     line-height: 1rem;
