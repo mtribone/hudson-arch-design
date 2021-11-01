@@ -79,6 +79,11 @@
   top: -22rem;
 }
 
+.project-title-single-line {
+  position: relative;
+  top: -20.5rem;
+}
+
 .galleria {
   position: relative;
   top: 3rem;
@@ -140,6 +145,11 @@
     position: relative;
     top: -28rem;
   }
+
+  .project-title-single-line {
+    position: relative;
+    top: -26rem;
+  }
 }
 
 @media (min-width: 600px) {
@@ -157,18 +167,23 @@
   }
 }
 
+@media (min-width: 650px) {
+  .content-home-about {
+    grid-template-columns: 6fr 6fr 6fr 3fr;
+    grid-template-areas: "home-about home-about home-about home-about";
+  }
+}
+
 @media (min-width: 700px) {
   /* Total Hack for Mobile per Client Request saves moola */
   .project-title {
     position: relative;
     top: -34rem;
   }
-}
 
-@media (min-width: 650px) {
-  .content-home-about {
-    grid-template-columns: 6fr 6fr 6fr 3fr;
-    grid-template-areas: "home-about home-about home-about home-about";
+  .project-title-single-line {
+    position: relative;
+    top: -.5rem;
   }
 }
 
@@ -184,8 +199,10 @@
   }
 
   /* Total Hack for Mobile per Client Request saves moola */
-  .project-title {
+  .project-title,
+  .project-title-single-line {
     position: static;
+    margin-top: 2rem;
   }
 
   .galleria {
